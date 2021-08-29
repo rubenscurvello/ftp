@@ -2,7 +2,7 @@ import SFTPClient from "ssh2-sftp-client";
 
 import { ConfigAuthFTP, FTPInterface } from "types";
 
-import { logger as Logger } from "common";
+import { Logger } from "common";
 
 class FTP implements FTPInterface {
   private client: SFTPClient;

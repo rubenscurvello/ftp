@@ -1,1 +1,2 @@
-export { default } from './src/ftp'
+import FTP from "./src/ftp";
+export default FTP;
