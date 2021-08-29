@@ -1,8 +1,12 @@
 {
   "name": "ftp",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "./dist/index.js",
   "license": "MIT",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
   "dependencies": {
     "common": "https://github.com/rubenscurvello/common.git",
     "ssh2-sftp-client": "^7.0.1",
