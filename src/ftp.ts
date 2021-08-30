@@ -37,7 +37,7 @@ class FTP implements FTPInterface {
     let complete = false;
     try {
       await this.client
-        .fastPut(localFileName, `remoteFileName`)
+        .fastPut(localFileName, remoteFileName)
         .then(() => {
           return this.disconnect();
         })
