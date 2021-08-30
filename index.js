@@ -1,1 +1,1 @@
-export { default } from 'dist/ftp'
+module.exports = require('./dist/ftp');
